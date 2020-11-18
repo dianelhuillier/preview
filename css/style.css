@@ -1,3 +1,7 @@
+div
+{
+	max-width: 100%;
+}
 @font-face{
 font-family: "Vonique";
 src: url("Vonique.otf");
@@ -25,8 +29,15 @@ background-color: rgb(116,81,235);
 {
 	height: 650px;
 }
-
-.section2, .section4
+.section4
+{
+	clear: both;
+background-color: white;
+color: rgb(0,54,104);
+margin-bottom: 100px;
+margin-top: 70px;
+}
+.section2
 {
 clear: both;
 background-color: white;
@@ -80,7 +91,7 @@ background: rgb(0,237,162);
 .photo
 {
 float: right;
-width: 25%;
+width: 37.5%;
 margin-right: 55%;
 }
 
@@ -184,8 +195,9 @@ font-size: 1.2em;
 
 .bplanning
 {
-	margin-left: 170px;
+	margin-left: 200px;
 	margin-top: 80px;
+	margin-right: 200px;
 }
 a
 {
