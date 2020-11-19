@@ -195,12 +195,27 @@ font-size: 1.2em;
 
 .bplanning
 {
-	margin-left: 200px;
+	margin-left: 20%;
 	margin-top: 80px;
-	margin-right: 200px;
+	margin-right: 20%;
 }
 a
 {
 text-decoration: none;
 color: white;
+}
+
+.planning
+{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+.bord, .bas
+{
+border-right: 1px solid black;
+border-left: 1px solid black;
+}
+.bas
+{
+	border-bottom: 1px solid black;
 }
